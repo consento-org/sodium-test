@@ -7,6 +7,9 @@
     "buffer-byte-frequency": "^1.0.1",
     "tape": "^4.6.3"
   },
+  "react-native": {
+    "tape": "fresh-tape"
+  },
   "devDependencies": {
     "standard": "^10.0.1"
   },
@@ -28,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/sodium-friends/sodium-test/issues"
   },
-  "homepage": "https://github.com/sodium-friends/sodium-test#readme"
+  "homepage": "https://github.com/sodium-friends/sodium-test#readme",
+  "peerDependencies": {
+    "fresh-tape": "^5.0.4"
+  }
 }
